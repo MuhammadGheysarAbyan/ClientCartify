@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameBoost - Jasa Joki Game Profesional</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">
+                    <i class="fas fa-gamepad logo-icon"></i>
+                    Game<span>Boost</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Beranda</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#games">Game</a></li>
+                    <li><a href="#pricing">Harga</a></li>
+                    <li><a href="#testimonials">Testimoni</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                    <li><a href="#" class="btn-order" id="orderNowBtn">Pesan Sekarang</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Tingkatkan <span class="highlight">Rank Game</span> Anda dengan Joki Profesional</h1>
+                <p>Kami menyediakan layanan joki game terpercaya untuk berbagai jenis game. Raih rank impian Anda dengan bantuan para profesional kami. Lebih dari 5.000 klien telah merasakan peningkatan performa game mereka.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Lihat Layanan
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-comments"></i> Konsultasi Gratis
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5,000+</span>
+                        <span class="stat-text">Klien Puas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-text">Rate Kepuasan</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-text">Layanan Support</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-container">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Gaming Illustration" id="heroImage">
+                    <div class="floating-badge badge-1">
+                        <i class="fas fa-trophy"></i>
+                        <span>Rank Guarantee</span>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>100% Aman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="services-bg"></div>
+        <div class="container">
+            <h2 class="section-title">Layanan <span class="highlight">Kami</span></h2>
+            <p class="section-subtitle">Kami menawarkan berbagai layanan joki game yang dapat disesuaikan dengan kebutuhan Anda. Setiap layanan didesain untuk memberikan hasil terbaik dengan keamanan maksimal.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Boost Rank</h3>
+                    <p>Meningkatkan rank game Anda ke level yang diinginkan dengan cepat, aman, dan terjamin. Proses transparan dengan update progress harian.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Update progress harian</li>
+                        <li><i class="fas fa-check-circle"></i> Pilihan server global</li>
+                        <li><i class="fas fa-check-circle"></i> Garansi rank sesuai pesanan</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Joki Tournament</h3>
+                    <p>Bantu Anda meraih kemenangan dalam turnamen game dengan strategi terbaik dari player profesional kami yang berpengalaman.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Player turnamen berpengalaman</li>
+                        <li><i class="fas fa-check-circle"></i> Strategi khusus per tim</li>
+                        <li><i class="fas fa-check-circle"></i> Garansi hadiah turnamen</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Coaching & Mentoring</h3>
+                    <p>Pelatihan langsung dari player profesional untuk meningkatkan skill bermain Anda. Mulai dari dasar hingga teknik advanced.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Sesi 1-on-1 personal</li>
+                        <li><i class="fas fa-check-circle"></i> Analisis gameplay mendalam</li>
+                        <li><i class="fas fa-check-circle"></i> Customized training plan</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Akun Aman & Terjamin</h3>
+                    <p>Keamanan akun Anda terjamin dengan sistem privasi dan keamanan terenkripsi. Kami menggunakan metode yang aman dan terpercaya.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Sistem keamanan berlapis</li>
+                        <li><i class="fas fa-check-circle"></i> Garansi kerahasiaan data</li>
+                        <li><i class="fas fa-check-circle"></i> Proteksi anti-banned</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games">
+        <div class="container">
+            <h2 class="section-title">Game <span class="highlight">Yang Kami Dukung</span></h2>
+            <p class="section-subtitle">Kami menyediakan layanan joki untuk berbagai game populer dengan joki-joki yang berpengalaman di masing-masing game.</p>
+            
+            <div class="games-grid">
+                <div class="game-card">
+                    <div class="game-img" style="background: linear-gradient(135deg, #f44336 0%, #e91e63 100%);">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Legends</h3>
+                    <p>Boost rank Mythic, joki Classic, Rank, dan Tournament. Support semua server.</p>
+                    <div class="game-stats">
+                        <span><i class="fas fa-users"></i> 2,500+ Joki</span>
+                        <span><i class="fas fa-star"></i> 4.9/5 Rating</span>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <div class="game-img" style="background: linear-gradient(135deg, #3f51b5 0%, #2196f3 100%);">
+                        <i class="fas fa-crosshairs"></i>
+                    </div>
+                    <h3>Valorant</h3>
+                    <p>Boost rank Competitive, joki Unrated, Spike Rush, dan Tournament.</p>
+                    <div class="game-stats">
+                        <span><i class="fas fa-users"></i> 1,200+ Joki</span>
+                        <span><i class="fas fa-star"></i> 4.8/5 Rating</span>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <div class="game-img" style="background: linear-gradient(135deg, #4caf50 0%, #8bc34a 100%);">
+                        <i class="fab fa-steam"></i>
+                    </div>
+                    <h3>Dota 2</h3>
+                    <p>Boost MMR, joki Ranked, Turbo, dan Battle Cup. Semua region available.</p>
+                    <div class="game-stats">
+                        <span><i class="fas fa-users"></i> 800+ Joki</span>
+                        <span><i class="fas fa-star"></i> 4.7/5 Rating</span>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <div class="game-img" style="background: linear-gradient(135deg, #ff9800 0%, #ff5722 100%);">
+                        <i class="fab fa-xbox"></i>
+                    </div>
+                    <h3>PUBG Mobile</h3>
+                    <p>Boost tier, joki Classic, Arena, dan Tournament. Conqueror ready.</p>
+                    <div class="game-stats">
+                        <span><i class="fas fa-users"></i> 1,500+ Joki</span>
+                        <span><i class="fas fa-star"></i> 4.8/5 Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Paket <span class="highlight">Harga</span></h2>
+            <p class="section-subtitle">Pilih paket yang sesuai dengan kebutuhan dan budget Anda. Semua paket sudah termasuk garansi dan support 24/7.</p>
+            
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <div class="price-header">
+                        <h3>Basic</h3>
+                        <div class="price">Rp 50.000<span>/order</span></div>
+                        <p class="price-desc">Untuk pemula yang ingin mencoba layanan</p>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-check"></i> Boost 1 Rank</li>
+                        <li><i class="fas fa-check"></i> 1 Game Pilihan</li>
+                        <li><i class="fas fa-check"></i> Waktu 1-3 Hari</li>
+                        <li><i class="fas fa-times"></i> Priority Queue</li>
+                        <li><i class="fas fa-times"></i> Laporan Harian</li>
+                        <li><i class="fas fa-times"></i> Garansi Refund</li>
+                    </ul>
+                    <a href="#contact" class="btn-price">Pilih Paket</a>
+                </div>
+                
+                <div class="price-card popular">
+                    <div class="price-badge">POPULER</div>
+                    <div class="price-header">
+                        <h3>Pro</h3>
+                        <div class="price">Rp 150.000<span>/order</span></div>
+                        <p class="price-desc">Paket terbaik untuk player serius</p>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-check"></i> Boost 5 Rank</li>
+                        <li><i class="fas fa-check"></i> 3 Game Pilihan</li>
+                        <li><i class="fas fa-check"></i> Waktu 3-7 Hari</li>
+                        <li><i class="fas fa-check"></i> Priority Queue</li>
+                        <li><i class="fas fa-check"></i> Laporan Harian</li>
+                        <li><i class="fas fa-times"></i> Garansi Refund</li>
+                    </ul>
+                    <a href="#contact" class="btn-price">Pilih Paket</a>
+                </div>
+                
+                <div class="price-card">
+                    <div class="price-header">
+                        <h3>Ultimate</h3>
+                        <div class="price">Rp 300.000<span>/order</span></div>
+                        <p class="price-desc">Solusi lengkap untuk kebutuhan gaming Anda</p>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-check"></i> Boost Unlimited</li>
+                        <li><i class="fas fa-check"></i> Semua Game</li>
+                        <li><i class="fas fa-check"></i> Waktu Fleksibel</li>
+                        <li><i class="fas fa-check"></i> Priority Queue</li>
+                        <li><i class="fas fa-check"></i> Laporan Harian</li>
+                        <li><i class="fas fa-check"></i> Garansi Refund</li>
+                    </ul>
+                    <a href="#contact" class="btn-price">Pilih Paket</a>
+                </div>
+            </div>
+            
+            <div class="pricing-note">
+                <p><i class="fas fa-info-circle"></i> Semua harga sudah termasuk PPN. Pembayaran via Transfer Bank, E-Wallet, atau QRIS.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimoni <span class="highlight">Klien</span></h2>
+            <p class="section-subtitle">Apa kata klien yang telah menggunakan layanan kami. Kepuasan mereka adalah prioritas utama kami.</p>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Rank saya naik dari Epic ke Mythic dalam waktu 3 hari saja! Jokinya sangat profesional dan selalu memberikan update progress. Very recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">R</div>
+                        <div class="author-info">
+                            <h4>Rizky Pratama</h4>
+                            <p>Mobile Legends Player</p>
+                            <span class="author-game">Epic → Mythic</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Jokinya profesional banget, akun aman dan rank sesuai pesanan. Support responsif 24 jam. Puas banget dan pasti akan order lagi!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">S</div>
+                        <div class="author-info">
+                            <h4>Sinta Dewi</h4>
+                            <p>Valorant Player</p>
+                            <span class="author-game">Silver → Platinum</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Coachingnya sangat membantu, sekarang saya sudah bisa main lebih baik dan rank naik signifikan. Mentor sangat sabar dan jelas penjelasannya!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">A</div>
+                        <div class="author-info">
+                            <h4>Andika Putra</h4>
+                            <p>Dota 2 Player</p>
+                            <span class="author-game">Crusader → Archon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi <span class="highlight">Kami</span></h2>
+            <p class="section-subtitle">Konsultasikan kebutuhan joki game Anda dengan tim kami. Kami siap membantu 24/7.</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telepon</h3>
+                            <p>+62 812-3456-7890</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>support@gameboost.id</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <p>+62 812-3456-7890</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Jam Operasional</h3>
+                            <p>Setiap Hari, 09:00 - 22:00 WIB</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h3>Follow Kami</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="orderForm">
+                        <h3>Form Pemesanan</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Nomor WhatsApp" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" required>
+                                <option value="">Pilih Layanan</option>
+                                <option value="boost-rank">Boost Rank</option>
+                                <option value="joki-tournament">Joki Tournament</option>
+                                <option value="coaching">Coaching</option>
+                                <option value="other">Lainnya</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="game" required>
+                                <option value="">Pilih Game</option>
+                                <option value="mobile-legends">Mobile Legends</option>
+                                <option value="valorant">Valorant</option>
+                                <option value="dota2">Dota 2</option>
+                                <option value="pubg">PUBG Mobile</option>
+                                <option value="other">Game Lain</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder="Detail pesanan (rank saat ini, rank tujuan, dll)"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Kirim Pesanan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="logo">
+                        <i class="fas fa-gamepad logo-icon"></i>
+                        Game<span>Boost</span>
+                    </a>
+                    <p>Layanan joki game profesional terpercaya di Indonesia. Tingkatkan rank game Anda dengan bantuan player profesional kami.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#services">Layanan</a></li>
+                        <li><a href="#games">Game</a></li>
+                        <li><a href="#pricing">Harga</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#">Boost Rank</a></li>
+                        <li><a href="#">Joki Tournament</a></li>
+                        <li><a href="#">Coaching</a></li>
+                        <li><a href="#">Akun Aman</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Kontak Kami</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</p>
+                    <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+                    <p><i class="fas fa-envelope"></i> support@gameboost.id</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 GameBoost. All rights reserved. | Website jasa joki game profesional</p>
+                <div class="footer-payments">
+                    <span>Metode Pembayaran:</span>
+                    <i class="fas fa-credit-card"></i>
+                    <i class="fab fa-paypal"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fas fa-qrcode"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Order Modal -->
+    <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2>Pesanan Terkirim!</h2>
+            <p>Terima kasih telah memesan layanan joki game kami. Tim kami akan menghubungi Anda dalam 1x24 jam melalui WhatsApp.</p>
+            <div class="modal-actions">
+                <button class="btn btn-primary close-btn">Tutup</button>
+                <a href="https://wa.me/6281234567890" class="btn btn-secondary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Chat WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
