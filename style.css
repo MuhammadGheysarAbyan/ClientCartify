@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #6c5ce7;
-    --primary-dark: #5a4bd4;
-    --secondary-color: #a29bfe;
+    --primary-color: #004C99;
+    --primary-dark: #003d79;
+    --secondary-color: #0066cc;
     --dark-color: #1a1a2e;
     --darker-color: #16213e;
     --light-color: #f9f9f9;
@@ -22,8 +22,8 @@
     --shadow-heavy: 0 15px 40px rgba(0, 0, 0, 0.2);
     --transition: all 0.3s ease;
     --border-radius: 12px;
-    --gradient: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
-    --gradient-dark: linear-gradient(135deg, #5a4bd4 0%, #8a7dfc 100%);
+    --gradient: linear-gradient(135deg, #004C99 0%, #0066cc 100%);
+    --gradient-dark: linear-gradient(135deg, #003d79 0%, #0052a3 100%);
 }
 
 html {
@@ -90,7 +90,7 @@ p {
     left: 0;
     width: 100%;
     height: 6px;
-    background-color: rgba(108, 92, 231, 0.2);
+    background-color: rgba(0, 76, 153, 0.2);
     z-index: -1;
 }
 
@@ -144,13 +144,13 @@ p {
 .btn-primary {
     background: var(--gradient);
     color: white;
-    box-shadow: 0 8px 25px rgba(108, 92, 231, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 76, 153, 0.4);
 }
 
 .btn-primary:hover {
     background: var(--gradient-dark);
     transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(108, 92, 231, 0.5);
+    box-shadow: 0 12px 30px rgba(0, 76, 153, 0.5);
 }
 
 .btn-secondary {
@@ -163,7 +163,7 @@ p {
     background-color: var(--primary-color);
     color: white;
     transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(108, 92, 231, 0.3);
+    box-shadow: 0 8px 25px rgba(0, 76, 153, 0.3);
 }
 
 .btn-order {
@@ -171,7 +171,7 @@ p {
     color: white;
     padding: 10px 22px;
     font-size: 0.9rem;
-    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 76, 153, 0.3);
     text-decoration: none;
     border-radius: 50px;
     font-weight: 600;
@@ -181,7 +181,7 @@ p {
 .btn-order:hover {
     background: var(--gradient-dark);
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(108, 92, 231, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 76, 153, 0.4);
 }
 
 .btn-price {
@@ -203,7 +203,7 @@ p {
 .btn-price:hover {
     background: var(--gradient-dark);
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(108, 92, 231, 0.3);
+    box-shadow: 0 8px 25px rgba(0, 76, 153, 0.3);
 }
 
 /* Header & Navigation */
@@ -253,6 +253,22 @@ header {
     color: var(--primary-color);
 }
 
+.logo-text {
+    font-weight: 900;
+}
+
+.logo-text .highlight-span {
+    color: var(--primary-color);
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--primary-color);
+}
+
 .logo-icon {
     color: var(--primary-color);
     font-size: 1.5rem;
@@ -281,12 +297,12 @@ header {
 
 .nav-menu a:hover {
     color: var(--primary-color);
-    background-color: rgba(108, 92, 231, 0.05);
+    background-color: rgba(0, 76, 153, 0.05);
 }
 
 .nav-menu a.active {
     color: var(--primary-color);
-    background-color: rgba(108, 92, 231, 0.1);
+    background-color: rgba(0, 76, 153, 0.1);
 }
 
 .hamburger {
@@ -334,7 +350,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" opacity="0.03"><g fill="%236c5ce7"><circle cx="100" cy="100" r="50"/><circle cx="800" cy="300" r="80"/><circle cx="400" cy="700" r="60"/><circle cx="900" cy="700" r="40"/><circle cx="200" cy="500" r="70"/></g></svg>');
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" opacity="0.03"><g fill="%23004C99"><circle cx="100" cy="100" r="50"/><circle cx="800" cy="300" r="80"/><circle cx="400" cy="700" r="60"/><circle cx="900" cy="700" r="40"/><circle cx="200" cy="500" r="70"/></g></svg>');
     background-size: 800px;
     z-index: 0;
 }
@@ -497,7 +513,7 @@ header {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
-    border: 1px solid rgba(108, 92, 231, 0.1);
+    border: 1px solid rgba(0, 76, 153, 0.1);
 }
 
 .service-card::before {
@@ -532,7 +548,7 @@ header {
     margin: 0 auto 16px;
     color: white;
     font-size: 1.5rem;
-    box-shadow: 0 6px 15px rgba(108, 92, 231, 0.25);
+    box-shadow: 0 6px 15px rgba(0, 76, 153, 0.25);
     transition: var(--transition);
 }
 
@@ -602,6 +618,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.game-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .game-img i {
@@ -688,7 +713,7 @@ header {
     transform: rotate(45deg);
     font-size: 0.7rem;
     font-weight: 700;
-    box-shadow: 0 3px 10px rgba(108, 92, 231, 0.3);
+    box-shadow: 0 3px 10px rgba(0, 76, 153, 0.3);
 }
 
 .price-header {
@@ -753,7 +778,7 @@ header {
     margin-top: 30px;
     text-align: center;
     padding: 14px;
-    background-color: rgba(108, 92, 231, 0.05);
+    background-color: rgba(0, 76, 153, 0.05);
     border-radius: var(--border-radius);
     border-left: 4px solid var(--primary-color);
 }
@@ -845,7 +870,7 @@ header {
 
 .author-game {
     display: inline-block;
-    background-color: rgba(108, 92, 231, 0.1);
+    background-color: rgba(0, 76, 153, 0.1);
     color: var(--primary-color);
     padding: 3px 10px;
     border-radius: 20px;
@@ -921,7 +946,7 @@ header {
 .social-icon {
     width: 40px;
     height: 40px;
-    background-color: rgba(108, 92, 231, 0.1);
+    background-color: rgba(0, 76, 153, 0.1);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -974,7 +999,7 @@ header {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.1);
+    box-shadow: 0 0 0 3px rgba(0, 76, 153, 0.1);
 }
 
 .form-group textarea {
@@ -1542,6 +1567,11 @@ footer {
 
     .logo-icon {
         font-size: 1.2rem;
+    }
+
+    .logo img {
+        width: 38px;
+        height: 38px;
     }
 
     .navbar {
